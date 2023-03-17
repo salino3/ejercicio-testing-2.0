@@ -18,6 +18,7 @@ interface Props {
 
 export const DashboardComponent: React.FC<Props> = props => {
   const { items, classes, dataTestId } = props;
+  
   return (
     <div
       data-testid={dataTestId}
